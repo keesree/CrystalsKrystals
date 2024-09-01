@@ -2278,3 +2278,47 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
+    .items {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+  }
+  
+  .item-card {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+      width: 200px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item-card img {
+      width: 100%;
+      height: auto;
+  }
+  
+  .item-card h2 {
+      font-size: 18px;
+      margin: 10px 0;
+  }
+  
+  .item-card p {
+      font-size: 16px;
+      color: #555;
+  }
+  
+  .item-card button {
+      background-color: #008cba;
+      color: white;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      font-size: 16px;
+  }
+  
+  .item-card button:hover {
+      background-color: #005f73;
+  }
+  
