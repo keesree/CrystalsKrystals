@@ -2286,7 +2286,8 @@ button,
   }
   
   .item-card {
-      border: 1px solid #ddd;
+    background-color: #fadde5;
+    border: 1px solid #ddd;
       padding: 10px;
       text-align: center;
       width: 200px;
@@ -2309,7 +2310,7 @@ button,
   }
   
   .item-card button {
-      background-color: #008cba;
+      background-color: #f5a1a1;
       color: white;
       padding: 10px;
       border: none;
